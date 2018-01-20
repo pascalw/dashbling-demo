@@ -11,9 +11,7 @@
   "dependencies": {
     "@dashbling/client": "^0.0.1-beta.16",
     "@dashbling/core": "^0.0.1-beta.16",
-    "dashbling-widget-weather": "^1.0.0"
-  },
-  "devDependencies": {
+    "dashbling-widget-weather": "^1.0.0",
     "@dashbling/build-support": "^0.0.1-beta.16"
   }
 }
