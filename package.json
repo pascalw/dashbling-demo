@@ -1,0 +1,19 @@
+{
+  "name": "my-dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=${NODE_ENV:-development} dashbling start",
+    "build": "dashbling compile"
+  },
+  "browserslist": "last 2 versions",
+  "dependencies": {
+    "@dashbling/client": "^0.0.1-beta.16",
+    "@dashbling/core": "^0.0.1-beta.16",
+    "dashbling-widget-weather": "^1.0.0"
+  },
+  "devDependencies": {
+    "@dashbling/build-support": "^0.0.1-beta.16"
+  }
+}
