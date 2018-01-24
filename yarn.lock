@@ -488,15 +488,15 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@dashbling/build-support@^0.0.1-beta.16":
-  version "0.0.1-beta.16"
-  resolved "https://registry.yarnpkg.com/@dashbling/build-support/-/build-support-0.0.1-beta.16.tgz#aa96644e5c8c4dc8371d04d3b3a24779be6558ec"
+"@dashbling/build-support@^0":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@dashbling/build-support/-/build-support-0.0.2.tgz#460264be5e3a95478a5aeff2c2a4ed376283ab1c"
   dependencies:
     "@babel/core" "^7.0.0-beta.34"
     "@babel/plugin-proposal-object-rest-spread" "7.0.0-beta.34"
     "@babel/preset-env" "^7.0.0-beta.34"
     "@babel/preset-react" "^7.0.0-beta.34"
-    "@dashbling/core" "^0.0.1-beta.16"
+    "@dashbling/core" "^0.0.2"
     autoprefixer "^7.1.6"
     babel-loader "^8.0.0-beta.0"
     clean-webpack-plugin "^0.1.17"
@@ -511,9 +511,9 @@
     webpack-dev-middleware "^1.12.2"
     webpack-hot-middleware "^2.21.0"
 
-"@dashbling/client@^0.0.1-beta.16":
-  version "0.0.1-beta.16"
-  resolved "https://registry.yarnpkg.com/@dashbling/client/-/client-0.0.1-beta.16.tgz#1997e80a5192cd2d6555c474e9a006afb71330aa"
+"@dashbling/client@^0":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@dashbling/client/-/client-0.0.3.tgz#12c418ca6025d817498bcc0c67a88ce9f3e75917"
   dependencies:
     date-fns "^1.29.0"
     prop-types "^15.6.0"
@@ -523,9 +523,9 @@
     redux "^3.7.2"
     timezone "^1.0.13"
 
-"@dashbling/core@^0.0.1-beta.16":
-  version "0.0.1-beta.16"
-  resolved "https://registry.yarnpkg.com/@dashbling/core/-/core-0.0.1-beta.16.tgz#dc918e8d7cd715ee886926d81dd67d55fc18a4d8"
+"@dashbling/core@^0", "@dashbling/core@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@dashbling/core/-/core-0.0.2.tgz#bf062b44959244c072fdca703798e9f0ddae17c3"
   dependencies:
     commander "^2.12.2"
     hapi "17.1.1"
