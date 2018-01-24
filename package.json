@@ -9,8 +9,8 @@
   },
   "browserslist": "last 2 versions",
   "dependencies": {
-    "@dashbling/core": "^0",
     "@dashbling/client": "^0",
+    "@dashbling/core": "^0",
     "dashbling-widget-weather": "^1.0.0"
   },
   "author": "Pascal Widdershoven <pascal@kabisa.nl>",

@@ -1433,8 +1433,8 @@ d@1:
     es5-ext "^0.10.9"
 
 dashbling-widget-weather@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/dashbling-widget-weather/-/dashbling-widget-weather-1.0.1.tgz#e2b1c4c0994595bfe3d6f20f6ac630fb17cf2ca9"
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/dashbling-widget-weather/-/dashbling-widget-weather-1.1.1.tgz#a2ddd7e6c4b97d0f76b526c3ff3c047b9c3fcfd1"
   dependencies:
     node-fetch "^1.7.3"
 
