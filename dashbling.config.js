@@ -32,6 +32,14 @@ module.exports = {
     },
     {
       schedule: "*/5 * * * *",
+      fn: require("./jobs/gitHubIssueStats")(
+        "pascalw/dashbling",
+        process.env.GITHUB_TOKEN,
+        "github-issue-stats-dashbling"
+      )
+    },
+    {
+      schedule: "*/5 * * * *",
       fn: require("./jobs/circleBuildStatus")(
         "github/pascalw/dashbling",
         "dashbling-ci-status"

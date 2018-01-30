@@ -11,7 +11,8 @@
   "dependencies": {
     "@dashbling/client": "^0",
     "@dashbling/core": "^0",
-    "dashbling-widget-weather": "^1.0.0"
+    "dashbling-widget-weather": "^1.0.0",
+    "frappe-charts": "^0.0.8"
   },
   "author": "Pascal Widdershoven <pascal@kabisa.nl>",
   "devDependencies": {

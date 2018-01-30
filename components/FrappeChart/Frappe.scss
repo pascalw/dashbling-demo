@@ -1,0 +1,30 @@
+:global {
+    .chart-container {
+        font-size: inherit;
+
+        &>.title {
+            font-size: 1.2em;
+            color: #fff;
+            margin-left: 0;
+            text-align: center;
+        }
+
+        .indicator {
+            font-size: inherit;
+            color: #fff;
+        }
+
+        .chart-label, .axis {
+            font-size: 0.8em;
+            color: #fff;
+        }
+
+        .frappe-chart {
+            margin-top: 20px !important;
+        }
+
+        .graph-stats-container {
+            margin-bottom: 0 !important;
+        }
+    }
+}
